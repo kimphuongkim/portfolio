@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* reset CSS*/
+body {
+	font-family: sans-serif;
+}
+
+/* Logo */
+
+#all-menu{
+	width: 70%;
+}
+
+#logo-containt {
+	padding-left: 15%;
+	text-align: left;
+	position: absolute;
+	
+}
+
+.logo {
+	display: block;
+	padding-top: 10px;
+}
+
+.logo a{
+	font: sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+	color: #339999;
+}
+
+.logo h3:hover{
+	color: #003333;
+	transition: 0.5s;
+}
+
+/* Menu */
+
+#list-menu {
+	background: #CCFFFF;  /*màu của thanh menu*/
+	text-align: right;
+	height: 55px;
+	padding-right: 15%;
+}
+
+#menu ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+#menu li {
+	display: inline-table;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+
+}
+
+
+.tags {
+	padding-top: 5px;
+}
+
+#menu li a{
+	color: #339999;
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px;
+}
+
+#menu li a:hover{
+	color: #003333;
+	transition: 0.5s;
+}
+
+#cover{
+	background-color: #CCFFFF;
+}
+#cover img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 800px;
+
+}
+/*Menu fix*/
+
+#all-menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+
+/*info*/
+
+#info img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	height: 400px;
+}
+
+#info h2{
+	text-align: center;
+	color: #339999;
+	font-size: 2em;
+	padding-bottom: 20px;
+}
+
+#info p{
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 21px;
+	margin: 0 0 10px 0;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.CV{
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 5%;
+	border: 1px solid #000;
+	padding-top: 10px;
+	border-radius: 7px;
+
+}
+
+.CV {
+	text-align: center;
+	text-decoration: none;
+}
+
+.bouton p{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+.bouton img{
+	width: 100px;
+	height: 12.5px;
+}
+
+
+.titre{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 70px;
+}
+
+#product{
+	display: inline-flex;
+	width: 100%;
+	height:auto;
+	margin: 2px auto;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.item {
+	width: 100%;
+
+}
+
+.item img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 500px;
+
+}
+
+.item p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.item3 img{
+	width: 357px;
+}
+
+.item2 img{
+	width: 300px;
+	height: 300px;
+	margin-top: 100px;
+}
+
+
+
+/* Contact*/
+
+#contact form{
+	text-align: center;
+}
+
+#contact form p{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#contact h1{
+	text-align: center;
+	font-weight: 500;
+	font-size: 2em;
+	margin-bottom: 15px;
+}
+
+
+
+input[type=text],
+textarea{
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border-bottom: solid 1px #0C0C0C;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 10px 0;
+	margin: 0;
+	width: 18%;
+	margin:0 2% 0;
+
+}
+
+textarea{
+	width: 40%;
+	height: 100px;
+	resize: vertical;
+}
+
+button{
+	background: #CCFFFF;
+	border: 0.5px solid #339999;
+	font-weight: 500;
+	color: #339999;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+button:hover{
+	color: #003333;
+	transition: 0.5s;
+}
+
+#contact{
+	margin-bottom: 60px;
+}
+#social{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#social li{
+	display: inline-block;
+	margin: 10px 15px;
+
+}
+#social span{
+	display: none;
+}
+
+#social img{
+	width: auto;
+	height: 20px;
+}	
+
+.container{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+footer {
+	background-color: #CCFFFF;
+	display: block;
+ 	padding: 2px;
+}
